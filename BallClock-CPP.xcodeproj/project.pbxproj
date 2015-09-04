@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0A04CA9F1B96A3FA005FE8D3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A04CA9E1B96A3FA005FE8D3 /* main.cpp */; };
+		0A04CAA71B96A415005FE8D3 /* Iteration2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A04CAA51B96A415005FE8D3 /* Iteration2.cpp */; };
+		0A0648BC1B99FBEE0038E657 /* Iteration1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A0648BA1B99FBEE0038E657 /* Iteration1.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,11 @@
 /* Begin PBXFileReference section */
 		0A04CA9B1B96A3FA005FE8D3 /* BallClock-CPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "BallClock-CPP"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A04CA9E1B96A3FA005FE8D3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0A04CAA51B96A415005FE8D3 /* Iteration2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Iteration2.cpp; sourceTree = "<group>"; };
+		0A04CAA61B96A415005FE8D3 /* Iteration2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Iteration2.h; sourceTree = "<group>"; };
+		0A0648BA1B99FBEE0038E657 /* Iteration1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Iteration1.cpp; sourceTree = "<group>"; };
+		0A0648BB1B99FBEE0038E657 /* Iteration1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Iteration1.h; sourceTree = "<group>"; };
+		0A4AB5991B96DDEB00821A8D /* Notes.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Notes.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,11 @@
 			isa = PBXGroup;
 			children = (
 				0A04CA9E1B96A3FA005FE8D3 /* main.cpp */,
+				0A0648BB1B99FBEE0038E657 /* Iteration1.h */,
+				0A0648BA1B99FBEE0038E657 /* Iteration1.cpp */,
+				0A04CAA61B96A415005FE8D3 /* Iteration2.h */,
+				0A04CAA51B96A415005FE8D3 /* Iteration2.cpp */,
+				0A4AB5991B96DDEB00821A8D /* Notes.strings */,
 			);
 			path = "BallClock-CPP";
 			sourceTree = "<group>";
@@ -119,6 +131,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A04CA9F1B96A3FA005FE8D3 /* main.cpp in Sources */,
+				0A04CAA71B96A415005FE8D3 /* Iteration2.cpp in Sources */,
+				0A0648BC1B99FBEE0038E657 /* Iteration1.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +249,7 @@
 				0A04CAA41B96A3FA005FE8D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
